@@ -1,0 +1,82 @@
+:root{
+    --font-text: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(81, 75, 121);
+}
+
+.heading{
+    color: rgb(16, 14, 14);
+    text-align: center;
+    background-color: rgb(250, 249, 250);
+    border-radius: 5px;
+    font-family: var(--font-text);
+    padding: 3px;
+    border-right: 40px solid rgb(191, 175, 175);
+    border-left: 40px solid rgb(191, 175, 175);
+}
+
+img{
+    width: 1000px;
+    height: 600px;   
+}
+
+.imgСontent{
+    display: flex;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.text{
+    background-color: rgb(255,249,255);
+    border-radius: 15px;
+    padding: 1px;
+    width: 800px;
+    text-align: center;
+    font-family: var(--font-text);
+    margin-left: 300px;
+}
+
+.factСontent{
+    background-color: rgb(255,249,255);
+    font-family: var(--font-text);
+    text-align: center;
+    border-radius: 15px;
+}
+li{
+    display: list-item;
+    margin: 15px;
+    text-align: left;
+    margin-left: 400px;
+    padding: 3px;
+}
+
+a{
+    color: black;
+    text-decoration:underline;
+    font-weight: 500;
+}
+
+.endpoint{
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+.endpoint::after {
+    content: "";
+    display: block;
+    height: 20px;
+    background-color: #fff;
+}
+
+.preEnd{
+    text-align: left;
+    white-space: pre;
+    margin: 0;
+    margin-left: 290px;
+}
+
+@media screen and (max-width: ){
+    
+}
